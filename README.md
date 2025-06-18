@@ -19,7 +19,7 @@ La **Arquitectura Hexagonal** (también conocida como Ports & Adapters) busca se
 - Mayor mantenibilidad y flexibilidad.
 
   ## 🏗️ Estructura del Proyecto
-
+```
 task-exagonal/
 ├── src/
 │ ├── application/ # Casos de uso
@@ -31,7 +31,7 @@ task-exagonal/
 ├── package.json
 ├── tsconfig.json
 └── README.md
-
+```
 markdown
 Copiar
 Editar
