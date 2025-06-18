@@ -32,58 +32,42 @@ task-exagonal/
 ├── tsconfig.json
 └── README.md
 ```
-markdown
-Copiar
-Editar
 
 ## 🚀 Instalación y Uso
 
 1. Clona el repositorio:
 
+```
 git clone https://github.com/Jhomartic/TasksExagonal.git
 cd TasksExagonal
-
-markdown
-Copiar
-Editar
+```
 
 2. Instala las dependencias:
-
+```
 npm install
-
-markdown
-Copiar
-Editar
+```
 
 3. Ejecuta el proyecto:
-
+```
 npm run dev
-
-shell
-Copiar
-Editar
+```
 
 ## ✅ Ejemplos de Uso
 
 ### Crear tarea
 
 POST /tasks
+```
 {
 "title": "Estudiar arquitectura hexagonal",
 "description": "Revisar teoría y hacer un mini proyecto"
 }
-
-shell
-Copiar
-Editar
+```
 
 ### Obtener todas las tareas
 
 GET /tasks
 
-markdown
-Copiar
-Editar
 
 ## 🛠️ Tecnologías
 
